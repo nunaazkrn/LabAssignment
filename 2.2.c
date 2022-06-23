@@ -11,7 +11,6 @@ int main(int argc, char **argv){
 		break;
 
 	default: /*a fork returns pid to the parents*/
-		wait(NULL);
 		printf("I am the parent process: pid=%d, child pid=%d\n",getpid(), pid);
 		break;
 
