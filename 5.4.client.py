@@ -10,6 +10,6 @@ myserver = {
 }
 
 net_connect = ConnectHandler(**myserver)
-output = net_connect.send_command('uname -a')
+output = net_connect.send_command('apt-get update')
 print(output)
 
