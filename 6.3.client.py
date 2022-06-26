@@ -6,7 +6,7 @@ ClientSocket = socket.socket()
 host = '192.168.53.3'
 port = 8898
 
-print('waiting for a connection from client')
+print('waiting for a connection...')
 try:
     ClientSocket.connect((host, port))
 except socket.error as e:
